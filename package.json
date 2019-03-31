@@ -1,0 +1,14 @@
+{
+  "name": "elena_blog",
+  "version": "1.0.0",
+  "description": "Elena blog",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass scss/ -o/css/ --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
