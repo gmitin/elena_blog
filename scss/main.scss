@@ -1,6 +1,7 @@
-$primary-color: #444;
+@media (min-width: 992px) {
+    .hideme {
+        opacity: 0;
+        position: relative;
+    }
 
-body {
-    background: $primary-color;
-    color: white;
 }

@@ -1,5 +1,7 @@
-body {
-  background: #444;
-  color: white;
+@media (min-width: 992px) {
+  .hideme {
+    opacity: 0;
+    position: relative;
+  }
 }
 /*# sourceMappingURL=main.css.map */

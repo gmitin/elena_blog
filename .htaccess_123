@@ -1,0 +1,11 @@
+AddDefaultCharset UTF-8
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^domain\.ru$ [NC]
+RewriteRule ^(.*)$ http://domain.ru/$1 [L,R=301]
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.domain\.ru$ [NC]
+RewriteRule ^(.*)$ http://www.domain.ru/$1 [L,R=301]
+
+RemoveHandler .html .htm
+AddType application/x-httpd-php .php .htm .html .phtml
